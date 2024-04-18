@@ -10,7 +10,7 @@ This page will demonstrate how to use the ASP Character Panel to configure shado
 
 ![Untitled](Character%20Shadow%20Setup%20Guide%201ebc2c7bb7324ff78f3bc2ca70bc8940/Untitled.png)
 
-1. Next, make sure that all required passes in the **ASP Render Feature Check List** are Active**.** If any are displayed as inactive or missing, it means that the corresponding renderer feature is not enabled in the current URP renderer data. Please follow the instructions in [**Installation Instructions and Prerequisites (Important)**](Installation%20Instructions%20and%20Prerequisites%20(Impor%205f0a72aeff00486d9b204b62c99a8035.md)  to configure URP rendering data.
+1. Next, make sure that all required passes in the **ASP Render Feature Check List** are Active**.** If any are displayed as inactive or missing, it means that the corresponding renderer feature is not enabled in the current URP renderer data. Please follow the instructions in [**Installation Instructions and Prerequisites**](Installation%20Instructions%20and%20Prerequisites%205f0a72aeff00486d9b204b62c99a8035.md)  to configure URP rendering data.
 
 ![Untitled](Character%20Shadow%20Setup%20Guide%201ebc2c7bb7324ff78f3bc2ca70bc8940/Untitled%201.png)
 

@@ -6,26 +6,19 @@
 
 Anime characters, especially faces, usually have a lower FOV than normal third-person games. The common FOV for third-person games is above 60~65, while for anime-style characters, a more desirable FOV is 40~45.
 
+![Untitled](Surface%20Options-%20FOV%20Correction%20and%20Dithering%20476e51d40c3c42298dda77a6faea1357/Untitled.png)
+
 ### Setup
 
 ---
 
 To solve this problem, ASP's shader provides parameters for vertex correction of perspective effects, which can be found in the Surface Option category of **ASP Character Pane**l:
 
-![Untitled](Surface%20Options-%20FOV%20Correction%20and%20Dithering%20476e51d40c3c42298dda77a6faea1357/Untitled.png)
-
 FOV adjust set to 0 means no correction, and set to 1 will make it close to orthographic projection.
 
 The following image is a comparison of before and after FOV correction:
 
 ![Untitled](Surface%20Options-%20FOV%20Correction%20and%20Dithering%20476e51d40c3c42298dda77a6faea1357/Untitled%201.png)
-
-<aside>
-💡 Please note that the **FOV adjust** parameter can only adjust the deformation caused by perspective projection to a certain extent. If **FOV adjust** is set too high, Different parts of the character may appear to penetrate each other, depends on the character model. It is recommand to keep the correction value as low as possible.
-
-</aside>
-
-![Untitled](Surface%20Options-%20FOV%20Correction%20and%20Dithering%20476e51d40c3c42298dda77a6faea1357/Untitled%202.png)
 
 ### **Setting FOV correction through Script**
 
@@ -52,11 +45,11 @@ After turning on Alpha Clip for the material, adjust **Dithering Factor** and **
 
 Dithering Factor is used to control the degree of Clip, the larger the Factor, the closer to Pseudo-transparency.
 
-![Untitled](Surface%20Options-%20FOV%20Correction%20and%20Dithering%20476e51d40c3c42298dda77a6faea1357/Untitled%203.png)
+![Untitled](Surface%20Options-%20FOV%20Correction%20and%20Dithering%20476e51d40c3c42298dda77a6faea1357/Untitled%202.png)
 
 Dither size affects the pixel size of Dither Pattern.
 
-![Untitled](Surface%20Options-%20FOV%20Correction%20and%20Dithering%20476e51d40c3c42298dda77a6faea1357/Untitled%204.png)
+![Untitled](Surface%20Options-%20FOV%20Correction%20and%20Dithering%20476e51d40c3c42298dda77a6faea1357/Untitled%203.png)
 
 ### **Setting Dithering through Script**
 

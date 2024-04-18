@@ -55,7 +55,7 @@ The Light Direction Param provides the ability to override the main light source
 This section has the parameter to controls the color, thickness, extrusion mode, and smooth normal baking tool to bake smooth normal into model’s UV4 channel.
 
 <aside>
-💡 For detailed instructions on how to use these parameters, please refer to [**Object Space Outline Settings**](Object%20Space%20Outline%20Settings%209d066f2426a644ed99fb32649bb5404d.md)
+💡 For detailed instructions on how to use these parameters, please refer to [**Object Space Outline Setup / Smooth Normal Bake Flow**](Object%20Space%20Outline%20Setup%20Smooth%20Normal%20Bake%20Flow%209d066f2426a644ed99fb32649bb5404d.md)
 
 </aside>
 

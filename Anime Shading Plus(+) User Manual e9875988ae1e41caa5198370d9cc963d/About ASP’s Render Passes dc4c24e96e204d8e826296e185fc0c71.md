@@ -2,7 +2,7 @@
 
 ---
 
-At the end of the [**Installation Instructions and Prerequisites (Important)**](Installation%20Instructions%20and%20Prerequisites%20(Impor%205f0a72aeff00486d9b204b62c99a8035.md), it is mentioned that : 
+At the end of the [**Installation Instructions and Prerequisites**](Installation%20Instructions%20and%20Prerequisites%205f0a72aeff00486d9b204b62c99a8035.md), it is mentioned that : 
 
 > There are a total of 3 basic renderer features required by ASP. Please be sure to add and enable the following renderer features in the renderer data:
 ASP Material Pass, ASP ShadowMap, and ASP Depth-Offset Shadow.
@@ -31,7 +31,7 @@ Material ID is very important. For example, screen-space outlines and other post
 
 In addition, the Material Pass also writes a separate depth map for the renderer. This is necessary because screen space shaders, like screen space outline, need depth information to determine if there are other objects (using non-ASP materials) in front of the character. Only then can they correctly apply the occlusion logic.  This is also why screen space outline cannot be applied to translucent objects – they simply don't provide the depth data that these operation require.
 
-# ASP Shadow Map
+# ASP Shadow Map Pass
 
 ---
 
@@ -48,7 +48,7 @@ The **ASP Shadow Map** Renderer Feature provides some parameters for users to cu
 | Cascade Count | The number of cascade of the Cascade Shadow Map, with support for up to 4 cascades. |
 | Shaodw Fade Ratio | The fade out level of the ASP Shadow Map, if set to 0 there will be no fade out at all, and when the distance from the camera exceeds the clip distance, you will see the shadow being clipped directly, the recommended setting is 0.5~1 |
 
-# ASP Depth Offset Shadow
+# ASP Depth Offset Shadow Pass
 
 ---
 

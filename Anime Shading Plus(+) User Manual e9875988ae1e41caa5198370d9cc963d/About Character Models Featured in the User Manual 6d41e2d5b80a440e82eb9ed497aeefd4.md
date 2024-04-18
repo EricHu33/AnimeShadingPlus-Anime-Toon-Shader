@@ -1,12 +1,14 @@
 # About Character Models Featured in the User Manual
 
-# **Disclaimer**
+# **Rights of Character Models**
 
-Please note: I did not create the character models featured in the user manual. These models are used to demonstrate the functions of the shader. I also made some modifications to the models' UV and materials to better showcase the shader's capabilities.
+**Please note:** I did not create any of the character models in this document. These models are only used to demonstrate the various Shader features within ASP. To better showcase certain features, I have made some modifications to the UVs or materials of the models.
+
+**When purchasing from the store, only [早川 葵 - Hayakawa Aoi]** will be included in the Package as a demo character inside the demo scenes.(with the original author's permission).
 
 ---
 
-Below is a list of the character models used, along with links to their official pages and creators:
+Below is a list of character models used, along with links to their official pages and creators:
 
 ### **早川 葵(created by [@WARPSTAR15](https://twitter.com/warpstar15?lang=en))**
 

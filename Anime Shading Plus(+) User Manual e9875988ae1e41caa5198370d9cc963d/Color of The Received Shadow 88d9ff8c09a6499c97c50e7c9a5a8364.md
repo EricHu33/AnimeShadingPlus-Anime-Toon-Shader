@@ -34,9 +34,7 @@ When Received Shadow Behaviour is set to Color, you can force the received shado
 
 You can notice that in this example, there are jagged shadows on the left side of the sphere. This is because the color of the self-shadow does not match the color of the ramp lighting map. According to the instructions in [**Character Shadow Setup Guide**](Character%20Shadow%20Setup%20Guide%201ebc2c7bb7324ff78f3bc2ca70bc8940.md) **(2-1)**, you can avoid self-shadow by disabling the built-in shadow caster of the current renderer.
 
-![Disable the shadow casting to the built-in shadow map can avoid self-shadow.](Color%20of%20The%20Received%20Shadow%2088d9ff8c09a6499c97c50e7c9a5a8364/Untitled%202.png)
-
-Disable the shadow casting to the built-in shadow map can avoid self-shadow.
+![Untitled](Color%20of%20The%20Received%20Shadow%2088d9ff8c09a6499c97c50e7c9a5a8364/Untitled%202.png)
 
 # 3.DarkenRampLightByColor
 
@@ -48,12 +46,17 @@ When using this mode, the received shadow color will be mixed with the specified
 
 ![Untitled](Color%20of%20The%20Received%20Shadow%2088d9ff8c09a6499c97c50e7c9a5a8364/Untitled%203.png)
 
-In the **DarkenRampLightByColor** mode, there will be self-shadow problems just like the **Color** mode. The solution is the same, just disable the shadow cast for the built-in shadow map.
+In the **DarkenRampLightByColor** mode, there will be self-shadow problems just like the **Color** mode. The solution is the same, just disable the shadow casting of the built-in shadow map.
+
+<aside>
+💡 You can disable the cast of built-in shadow from either the **Skinned/MeshRenderer** component or the **ASP character panel** component
+
+</aside>
 
 ![Untitled](Color%20of%20The%20Received%20Shadow%2088d9ff8c09a6499c97c50e7c9a5a8364/Untitled%204.png)
 
 <aside>
-💡  DarkenRampLightByColor is a mode that is very suitable for cel-shaded characters. It can preserve the ligting changes of light/shadowed area on the character.
+💡  **DarkenRampLightByColor** is more suitable for cel-shaded characters - It can preserve the hard-tone changes on the character.
 
 </aside>
 

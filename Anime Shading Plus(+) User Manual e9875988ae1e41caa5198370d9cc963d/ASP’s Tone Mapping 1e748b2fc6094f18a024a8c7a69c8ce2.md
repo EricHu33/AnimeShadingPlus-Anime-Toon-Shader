@@ -57,6 +57,6 @@ The reason is:
 4. Generally speaking, set **Character Pixel Tone Map Strength**  to range between 0.25 and 0.7 can give ideal result.
 
 <aside>
-💡 The curve model used by ASP Tone Mapping is **Filmic tone mapping.** The advantage of using filmic is that this model can use the exposure parameter to control the overall exposure.
+💡 The curve model used by ASP Tone Mapping is **Filmic tone mapping.** The advantage of using filmic is that this model can use the **exposure** parameter to control the overall exposure.
 
 </aside>

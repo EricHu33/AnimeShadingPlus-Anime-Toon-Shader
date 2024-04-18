@@ -75,3 +75,17 @@ For example, for areas where you don't want the outline to appear (such as the e
 | Color Weight Fading StartEnd Distance | The Start/End distance of the distance-based color/weight fading effect. |
 | Fading Width By Distance | wheather enable distance fade for outline width  |
 | Width Fading StartEnd Distance | The Start/End distance of the distance-based width fading effect. |
+
+# Rules for Material IDs
+
+---
+
+Each Material assigned to an ASP Character Panel is given a unique Material ID at runtime. For instance, consider a character object with 5 Skinned Mesh Renderers and 5 distinct Material Assets. In this scenario, the character's Materials will have IDs ranging from 1 to 5.
+
+This can sometimes be a unwanted behaviour, such as when a single mesh has multiple materials and you don't want these materials to have different IDs. By naming the Material Assets with the same name (since they have the same name, you will need to put them in different folders in the project), the ASP Character Panel will treat the Material Assets with the same name as a single Material with the same ID.
+
+Summay of Material IDs: 
+
+- **For Separaete Material Ids:** Assign unique Material(and has unique name) to renderers that should have unque Material IDs. This will prevent conflicts and ensure each material has its own IDs.
+- **Shared Material ID for Multiple Renderers:** If you want multiple materials on a single mesh to share the same Material ID, give them the same Material Asset name. This will group the materials under a single ID.
+    - **Note:** The Material Assets must be placed in separate folders within the project to avoid naming collisions.

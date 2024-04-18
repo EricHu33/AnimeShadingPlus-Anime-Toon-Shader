@@ -6,12 +6,12 @@ After character shadows are rendered separately to an additional ASP Shadow Map,
 
 ASP/UniversalPBRLit is exactly the same as the built-in PBR (I directly copied the entire code), the only difference is that it will also sample the ASP Shadow Map when rendering shadows. In other words, when you need to allow static objects to receive and display character shadows, you can safely replace the built-in Lit Shader with **ASP/UniversalPBRLit.**
 
+![Untitled](How%20to%20Make%20Non-ASP%20Shaders%20Receive%20Character-Only%206cf1a9caf040454c962e06c79436b873/Untitled.png)
+
 <aside>
 💡 **Please note that ASP currently only works correctly in forward rendering and forward rendering + projects. This is because ASP needs to sample additional shadow maps, which is not supported in deferred rendering.**
 
 </aside>
-
-![Untitled](How%20to%20Make%20Non-ASP%20Shaders%20Receive%20Character-Only%206cf1a9caf040454c962e06c79436b873/Untitled.png)
 
 # 2. Scene uses a custom code shader and needs to display character shadows from the ASP Shadow Map
 

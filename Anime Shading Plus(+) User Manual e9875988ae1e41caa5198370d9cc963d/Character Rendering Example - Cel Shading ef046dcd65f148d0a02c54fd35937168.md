@@ -170,7 +170,7 @@ By using Face Shadow Map, we can prevent the undesired toon lighting on complex 
 
 ![Untitled](Character%20Rendering%20Example%20-%20Cel%20Shading%20ef046dcd65f148d0a02c54fd35937168/Untitled%2013.png)
 
-The setup of a face shadow map deserves a dedicated page for a proper explanation. Please refer to the Face Shadow Map guide - [Face Shadow Map- Creation and Baking Workflow](Face%20Shadow%20Map-%20Creation%20and%20Baking%20Workflow%20d3b8769021e04683a2f2ae4cf16ac810.md) to learn how to create and apply a face shadow map to the character's face material. “
+The setup of a face shadow map deserves a dedicated page for a proper explanation. Please refer to the Face Shadow Map guide - [Face Shadow Map- Creation & Baking Workflow](Face%20Shadow%20Map-%20Creation%20&%20Baking%20Workflow%20d3b8769021e04683a2f2ae4cf16ac810.md) to learn how to create and apply a face shadow map to the character's face material. “
 
 <aside>
 💡 **When using Face Mode, the character will only use the leftmost end of the ramp map as the shadow color. The ramp map itself does not create ramp lighting (The lighting will control by the face shadow map).**

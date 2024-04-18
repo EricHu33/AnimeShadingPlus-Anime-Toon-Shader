@@ -6,7 +6,7 @@
 
 A : 
 
-The outline/tone mapping shader is most likely not packaged into th executable file. Please refer to [**Building and Packaging Shaders(Important)**](Building%20and%20Packaging%20Shaders(Important)%20d5138d321fbd4daa8b36568893073651.md)。
+The outline/tone mapping shader is most likely not packaged into th executable file. Please refer to [**Building and Packaging Shaders - Important**](Building%20and%20Packaging%20Shaders%20-%20Important%20d5138d321fbd4daa8b36568893073651.md)。
 
 # Q: **In the editor, characters using ASP/Character shader do not have outline and tonemapping effects**
 
@@ -38,4 +38,4 @@ Please check if **com.unity.collections 1.5.1** or later is installed correctly 
 
 A : 
 
-The ramp map editor searches for textures specifically within the Assets/ASP/Textures/ folder. Textures in other locations won't show up in the editor. This limitation is designed to improve performance.  In larger projects with many textures, searching everywhere would significantly increase the time it takes for the ramp map editor to display results.
+The ramp map editor searches for textures specifically within the **Assets/ASP/** folder and it’s sub folders. Textures in other locations won't show up in the editor. This limitation is designed to improve performance.  In larger projects with many textures, searching everywhere would significantly increase the time it takes for the ramp map editor to display results.

@@ -21,6 +21,10 @@ I also did some modification of the models uv/material in order to show casing s
 > 
 > [🍉とりにゃん (@torinyannyan1) on X](https://twitter.com/torinyannyan1)
 > 
+> concept artist :
+> 
+> [Радиоволна (@nradiowave) on X](https://twitter.com/nradiowave)
+> 
 
 <aside>
 💡 Please refer to [](Shader%20Properties%20References%20b6d95870279e49bba2e94933508053bb.md) as well when using the shader
@@ -168,6 +172,6 @@ Then, adjust the Bloom(anime character usually has higher scattering for the blo
 ![Untitled](Character%20Rendering%20Example%20-%20Stylize%20CelShading%20P%20e32b26f68a5f4332b5271e547152fb8d/Untitled%2012.png)
 
 <aside>
-💡 Go to next page → [Face Shadow Map- Creation and Baking Workflow](Face%20Shadow%20Map-%20Creation%20and%20Baking%20Workflow%20d3b8769021e04683a2f2ae4cf16ac810.md)
+💡 Go to next page → [Face Shadow Map- Creation & Baking Workflow](Face%20Shadow%20Map-%20Creation%20&%20Baking%20Workflow%20d3b8769021e04683a2f2ae4cf16ac810.md)
 
 </aside>

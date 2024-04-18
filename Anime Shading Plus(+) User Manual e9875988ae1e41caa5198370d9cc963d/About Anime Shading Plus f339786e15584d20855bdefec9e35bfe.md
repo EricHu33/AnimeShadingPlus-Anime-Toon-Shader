@@ -12,13 +12,13 @@ Anime Shading Plus (+), or ASP for short, is a Unity plugin specially designed f
 
 ---
 
-Toon shaders are one of the most widely used shader types in Unity, and there are countless discussion and articles about toon shader on the Internet. However, over the years, I feel that there is no plugin on the Unity Asset Store that meets all of the following conditions at the same time:
+Toon shaders are one of the most widely used shader types in Unity, and there are countless discussion and articles about toon shader on the Internet. However, over the years, I feel that there is no plugin on the Unity Asset Store or Github that meets all of the following conditions at the same time:
 
 - Shader dedicated to rendering JRPG, anime-style characters
-- ShadowMap specially drawn for cel-shaded characters
+- ShadowMap specially drawn for cel-shaded characters to prevent ugly self shadowing.
 - Good inner and outer outline effects (Screen Space Outline and Mesh-based Outline for characters)
 - Post-processing effects for JRPG, anime-style characters (e.g. Tonemapping)
-- Handling of multiple light sources and ambient lighting (indirect light sources) for cel-shaded characters
+- Special handling of multiple light sources and ambient lighting (indirect light sources) for cel-shaded characters
 - Option to mix standard PBR and toon shading.
 - Additional tools to improve workflow such as face shadow map baking tool and smoothed normal baking tool for mesh-based outline.
 

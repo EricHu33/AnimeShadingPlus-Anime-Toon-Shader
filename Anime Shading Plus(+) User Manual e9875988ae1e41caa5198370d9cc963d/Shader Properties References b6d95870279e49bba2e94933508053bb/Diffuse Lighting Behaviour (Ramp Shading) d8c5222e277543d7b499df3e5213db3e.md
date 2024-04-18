@@ -56,5 +56,5 @@ Set to 1 - Direct lighting is calculated entirely based on direct diffuse under 
 
 ---
 
-Currently, The ramp map editor track **every** textures under **Assets/ASP/Textures/** folder, textures located in other folder won’t be query during the searching process. 
+Currently, The ramp map editor track **every** textures under **Assets/ASP/** folder and it’s ****subfolders, textures located in other folder won’t be query during the searching process. 
 This restriction is solely for reduce the query time. Without this rule the ramp map query time might become very long for a larger project that contains thousands of textures.

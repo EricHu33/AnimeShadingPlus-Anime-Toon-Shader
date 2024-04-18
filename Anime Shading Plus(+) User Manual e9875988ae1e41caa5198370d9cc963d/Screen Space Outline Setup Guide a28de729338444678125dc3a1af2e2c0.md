@@ -131,6 +131,6 @@ In addition to adjusting the global outline weight through the volume, ASP provi
 </aside>
 
 <aside>
-⏭️ Go to next page[**Object Space Outline Settings**](Object%20Space%20Outline%20Settings%209d066f2426a644ed99fb32649bb5404d.md)
+⏭️ Go to next page[**Object Space Outline Setup / Smooth Normal Bake Flow**](Object%20Space%20Outline%20Setup%20Smooth%20Normal%20Bake%20Flow%209d066f2426a644ed99fb32649bb5404d.md)
 
 </aside>
