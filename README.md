@@ -25,57 +25,20 @@ Toon shaders are one of the most widely used shader types in Unity, and there ar
 
 However, I believe that each of these feature is indispensable for achieving high-quality JRPG-like, anime-style character rendering. Therefore, I decided to integrate the above functions into a single plugin on the URP pipeline of Unity.
 
-I believe that this plugin has the stability/performance/completeness to be a production-ready product for PC platforms. At the same time, it can also be used as a based shader to extend upon, for projects that require anime style characters.
+This plugin has the stability/performance/completeness to be a production-ready product for PC platforms. At the same time, it can also be used as a based shader to extend upon, for projects that require anime style characters.
 
 # Feature Highlights
 
----
-
-## 1. A shader that is specifically designed to render anime-style characters.
-
-- The shader includes a variety of features, such as cartoon lighting, stylized PBR lighting parameters, rim light, MatCap reflection, subsurface scattering, and FOV correction…and may more.
-- ASP also provides a baking tool for SDF-based face shadow maps, which are commonly used to render anime character faces in games.
-- A shader specifically for rendering anime character eyes.
-
-![Untitled](About%20Anime%20Shading%20Plus%20f339786e15584d20855bdefec9e35bfe/Untitled.png)
-
-![Untitled](About%20Anime%20Shading%20Plus%20f339786e15584d20855bdefec9e35bfe/Untitled%201.png)
-
-## 2. **Character-Only Shadow Maps and Depth-Offset Shadows**
-
-To solve the problem of low-quality self-shadowing on characters in toon rendering, ASP supports rendering characters separately to a separated shadow map. This means that two shadow maps are used in the scene: one built-in Unity shadow map that does not include characters, and another shadow map that only includes characters.
-
-To increase character detail, ASP also supports specifying Renderers to render shadows based on offseted depth buffer.
-
-![Untitled](About%20Anime%20Shading%20Plus%20f339786e15584d20855bdefec9e35bfe/Untitled%202.png)
-
-![Untitled](About%20Anime%20Shading%20Plus%20f339786e15584d20855bdefec9e35bfe/Untitled%203.png)
-
-## 3. **Tone Mapping Shader Designed For Anime Characters**
-
-Traditional full-screen tone mapping can reduce saturation, which is not ideal for anime characters. To address this, ASP provides a tone mapping that can adjust the strength of the effect based on the pixels occupied by the characters on the screen. This allows anime characters to retain their origin colors even in a PBR environemt scene that required tone mapping.
-
-![Untitled](About%20Anime%20Shading%20Plus%20f339786e15584d20855bdefec9e35bfe/Untitled%204.png)
-
-## 4. **Screen Space and Mesh-based Outlines**
-
-ASP provides comprehensive outlining features for characters, both in screen-space and model-space. Screen-space outlines can be drawn based on multiple factors such as depth/normal/color..etc.
-The screen space outline has it’s own FXAA as well.
-ASP also provide extra control over the outline via vertex color and fading effect based on distance to the camera.
-
-<aside>
-💡 ASP also provides tools for baking smooth normals for model-space outlines.
-
-</aside>
-
-![Untitled](About%20Anime%20Shading%20Plus%20f339786e15584d20855bdefec9e35bfe/Untitled%205.png)
-
-## 5. **Cel-Shaded Multi-Light and Ambient Light (Indirect Light) Handling**
-
-To render high quality cel-shaded characters, ASP provides an option to flatten the non-indirect light from ambient light and additional lighting result.
-This can eliminate the 3D-ish feel of the characters and achieve a rendering result that is closer to the 2D, cel-shaded style.
-
-![Untitled](About%20Anime%20Shading%20Plus%20f339786e15584d20855bdefec9e35bfe/Untitled%206.png)
+- A clear document (I'm super proud of this one!!!) PLEASE take sometime to read the document because its worth it.
+- Render character into a separated shadow map in order to prevent ugly self-shadowing of cel shading.
+- Handle lighting so it the shading result will more align to 2D, Anime-like flatten shading.
+- Blending between stylized lighting and PBR
+- Face threshold map (threshold map baking tool included)
+- Character-only screen space outline(with FXAA & 4 types of edge detection mode to choose)
+- Character-only object space outline (The inverhull method) and smooth normal baking option (for object space outline),
+- Tone mapping made for anime character
+- Backport the nice screen space lens flare effect from Unity 2023 to 2022/2021.
+- Dedicated eye shader
 
 
 
