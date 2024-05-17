@@ -1,4 +1,6 @@
 # About Anime Shading Plus
+![Store Img (1)](https://github.com/EricHu33/Anime-Shading-Plus/assets/13420668/a61d8499-38a0-40d2-9edb-4c566868d6a9)
+![Store Img (2)](https://github.com/EricHu33/Anime-Shading-Plus/assets/13420668/06505150-53c7-4de1-96fb-9ff2728d015e)
 
 ---
 
