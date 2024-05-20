@@ -7,7 +7,7 @@
 Anime Shading Plus (+), or ASP for short, is a Unity plugin specially designed for rendering anime-style characters. It helps game developers render 3D characters in the Unity engine with a style close to traditional cel-shading or even more stylized anime character.
 
 # [Asset Store Page](https://assetstore.unity.com/packages/vfx/shaders/anime-shading-plus-281737)
-
+[![IMAGE ALT TEXT](https://github.com/EricHu33/Anime-Shading-Plus/assets/13420668/e1914886-afbb-4ba1-890a-203134bf2f6c)](https://www.youtube.com/watch?v=FFZF2QBp2RE "Video Title")
 ---
 This repo serve as a backup for the user manual and also I use github project board as feature roadmap, you can check the roadmap and see what features I'm working on or plan to implement.
 
